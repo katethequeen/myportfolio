@@ -1,0 +1,107 @@
+
+.container {
+    position: relative;
+    height: 138vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #161513;
+    margin-bottom: 5px;
+}
+.container img {
+    position: absolute;
+    width: 800px;
+    top: calc(50% - 556px);
+    left: calc(50% - 10px);
+    z-index: 2;
+}
+.aboutText h1 {
+    position: absolute;
+    top: calc(50% - 500px);
+    left: calc(50% - 680px);
+
+    font-size: 150px;
+    background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 10s ease-in-out infinite;
+    -moz-animation: animated_text 10s ease-in-out infinite;
+    -webkit-animation: animated_text 10s ease-in-out infinite;
+    }
+    
+    @keyframes animated_text {
+        0% { background-position: 0px 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0px 50%; }
+    }
+.aboutText h3{
+    font-size: 70px;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 650px);
+}
+.aboutText img{
+    width: 180px;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 250px);
+}
+.nome {
+    background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 10s ease-in-out infinite;
+    -moz-animation: animated_text 10s ease-in-out infinite;
+    -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+.container .profilo {
+    width: 800px;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% + 300px);
+    z-index: 1;
+}
+
+.first-description h3 {
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    font-size: 45px;
+}
+.first-description h3 .flag{
+    position: absolute;
+    top: 0%;
+    left: 105%;
+    font-size: 45px;
+    background: linear-gradient(-45deg, #3cdf39, #f1f1e9, #e42020);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 10s ease-in-out infinite;
+    -moz-animation: animated_text 10s ease-in-out infinite;
+    -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+.first-description h3 .flag:hover {
+    font-size: 60px;
+}
+
+.second-description h3 {
+    position: absolute;
+    top: 76%;
+    left: 8%;
+    font-size: 58px;
+    background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 10s ease-in-out infinite;
+    -moz-animation: animated_text 10s ease-in-out infinite;
+    -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+.second-description h2 {
+    position: absolute;
+    top: 88%;
+    left: 1.7%;
+    font-size: 35px;
+}

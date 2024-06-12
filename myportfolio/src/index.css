@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
+  background-size: 300%;
+  animation: animated_text 10s ease-in-out infinite;
+  -moz-animation: animated_text 10s ease-in-out infinite;
+  -webkit-animation: animated_text 10s ease-in-out infinite;
+  overflow-x: hidden;
+}

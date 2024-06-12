@@ -1,0 +1,174 @@
+.contact-box {
+    position: relative;
+    height: 133.5vh;
+    width: 100vw;
+    background: #161513;
+}
+.contact-box img {
+    position: absolute;
+    width: 100vw;
+    top: 0%;
+    z-index: 3;
+}
+
+.contact-box h2 {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    font-size: 100px;
+    background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 10s ease-in-out infinite;
+    -moz-animation: animated_text 10s ease-in-out infinite;
+    -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+
+
+.social-icons .instagram{
+    width: 70px;
+    position: absolute;
+    top: 22%;
+    right: 37%;
+}
+.social-icons .instagram:hover{
+    width: 75px;
+}
+.social-icons .facebook{
+    width: 70px;
+    position: absolute;
+    top: 22%;
+    right: 28%;
+}
+.social-icons .facebook:hover{
+    width: 75px;
+}
+.social-icons .linkedin{
+    width: 70px;
+    position: absolute;
+    top: 22%;
+    right: 19%;
+}
+.social-icons .linkedin:hover{
+    width: 75px;
+}
+.social-icons .email{
+    background: #f76bae;
+    border-radius: 10px;
+    width: 68px;
+    height: 8.5vh;
+    position: absolute;
+    top: 22%;
+    left: 85%;
+}
+.talk h3 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+    font-size: 80px;
+    background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 10s ease-in-out infinite;
+    -moz-animation: animated_text 10s ease-in-out infinite;
+    -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+
+.contact-details {
+    position: relative;
+    top: 65%;
+    left: 5%;
+    width: 700px;
+    height: 40vh;
+    z-index: 3;
+}
+.user-email {
+    position: absolute;
+    top: -10%;
+    left: 20%;
+    width: 400px;
+    height: 7vh;
+    border-bottom: 1px solid #f88191;
+    border-top: 1px solid #f88191;
+    border-radius: 5%;
+    background: transparent;
+    color: #fff;
+    padding-left: 85px;
+    font-size: 20px;
+    background: transparent;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+.message {
+    position: absolute;
+    top: 25%;
+    width: 700px;
+    height: 30vh;
+    border-bottom: 1px solid #f88191;
+    border-top: 1px solid #f88191;
+    background: transparent;
+    padding-left: 65px;
+    font-size: 20px;
+    color: #fff;
+    background: transparent; 
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-radius: 5%;
+}
+::placeholder {
+    padding-left: 0px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact-submit {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 800;
+    top: 58%;
+    left: 117%;
+    width: 170px;
+    height: 15vh;
+    z-index: 3;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+
+    cursor: pointer;
+    background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 10s ease-in-out infinite;
+    -moz-animation: animated_text 10s ease-in-out infinite;
+    -webkit-animation: animated_text 10s ease-in-out infinite;
+    
+}
+.contact-submit:hover {
+    font-size: 43px;
+    border-bottom: 1px solid #f88191;
+    border-top: 1px solid #f88191;
+}
+.copy-box {
+    width: 100%;
+    height: 4vh;
+    position: relative;
+    top: 71%;
+}
+.copy-box .copyright {
+    width: 29px;
+    position: absolute;
+    top: -15%;
+    left: 1.5%;
+}
+.copy-box h3 {
+    font-size: 20px;
+    position: absolute;
+    left: 3.8%;
+    color: #000;
+}
