@@ -9,12 +9,13 @@
     width: 100vw;
     top: 0%;
     z-index: 3;
+    opacity: 0.2;
 }
 
 .contact-box h2 {
     position: absolute;
     top: 5%;
-    right: 15%;
+    right: 12%;
     font-size: 100px;
     background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
     background-size: 300%;
@@ -25,47 +26,41 @@
     -webkit-animation: animated_text 10s ease-in-out infinite;
 }
 
-
-.social-icons .instagram{
+.social-icons .email{
     width: 70px;
     position: absolute;
     top: 22%;
-    right: 37%;
+    right: 23%;
+    opacity: 1;
 }
-.social-icons .instagram:hover{
-    width: 75px;
+.social-icons .email:hover{
+    transform: scale(1.1);
 }
 .social-icons .facebook{
-    width: 70px;
+    width: 65px;
     position: absolute;
     top: 22%;
-    right: 28%;
+    right: 31%;
+    opacity: 1;
 }
 .social-icons .facebook:hover{
-    width: 75px;
+    transform: scale(1.1);
 }
 .social-icons .linkedin{
-    width: 70px;
+    width: 65px;
     position: absolute;
     top: 22%;
-    right: 19%;
+    right: 16%;
+    opacity: 1;
 }
 .social-icons .linkedin:hover{
-    width: 75px;
+    transform: scale(1.1);
 }
-.social-icons .email{
-    background: #f76bae;
-    border-radius: 10px;
-    width: 68px;
-    height: 8.5vh;
-    position: absolute;
-    top: 22%;
-    left: 85%;
-}
+
 .talk h3 {
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 10%;
 
     font-size: 80px;
     background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
@@ -80,7 +75,7 @@
 .contact-details {
     position: relative;
     top: 65%;
-    left: 5%;
+    left: 0;
     width: 700px;
     height: 40vh;
     z-index: 3;
@@ -88,7 +83,7 @@
 .user-email {
     position: absolute;
     top: -10%;
-    left: 20%;
+    left: 21%;
     width: 400px;
     height: 7vh;
     border-bottom: 1px solid #f88191;
@@ -96,7 +91,7 @@
     border-radius: 5%;
     background: transparent;
     color: #fff;
-    padding-left: 85px;
+    padding-left: 15px;
     font-size: 20px;
     background: transparent;
     border-right: none;
@@ -106,12 +101,13 @@
 .message {
     position: absolute;
     top: 25%;
+    left: 21%;
     width: 700px;
     height: 30vh;
     border-bottom: 1px solid #f88191;
     border-top: 1px solid #f88191;
     background: transparent;
-    padding-left: 65px;
+    padding-left: 15px;
     font-size: 20px;
     color: #fff;
     background: transparent; 
@@ -131,7 +127,7 @@
     font-size: 40px;
     font-weight: 800;
     top: 58%;
-    left: 117%;
+    left: 137%;
     width: 170px;
     height: 15vh;
     z-index: 3;

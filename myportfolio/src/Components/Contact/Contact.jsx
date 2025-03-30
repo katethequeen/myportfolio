@@ -2,10 +2,9 @@ import React from 'react'
 import './Contact.css'
 
 import sfondino from '../../assets/sfondo-contact.png'
-import instagram from '../../assets/instagram-logo.png'
 import facebook from '../../assets/facebook-logo.png'
 import linkedin from '../../assets/linkedin-logo.png'
-import email from '../../assets/email-logo.png'
+import email from '../../assets/email_logo.png'
 import copy from '../../assets/9021493_copyright_bold_icon.png'
 
 const Contact = () => {
@@ -39,10 +38,9 @@ const Contact = () => {
         <img src= {sfondino} />
         <h2>Contact me!</h2>
         <div className="social-icons">
-            <a href='https://www.instagram.com/cateresasco/'><img src={instagram} className='instagram'/></a>
-            <a href='https://www.facebook.com/profile.php?id=100069746681435'><img src={facebook} className='facebook'/></a>
-            <a href='https://www.linkedin.com/in/caterina-resasco-0925ab259/'><img src={linkedin} className='linkedin'/></a>
             <a href='mailto:cateresa4@gmail.com'><img src={email} className='email'/></a>
+            <a href='https://www.facebook.com/profile.php?id=100069746681435'><img src={facebook} className='facebook'/></a>
+            <a href='https://www.linkedin.com/in/caterina-resasco/'><img src={linkedin} className='linkedin'/></a>
         </div>
 
         <div className="talk">

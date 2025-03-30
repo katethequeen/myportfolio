@@ -9,17 +9,18 @@
 }
 .container img {
     position: absolute;
-    width: 800px;
-    top: calc(50% - 556px);
-    left: calc(50% - 10px);
+    width: 52%;
+    top: 0;
+    right: 0;
     z-index: 2;
+    opacity: 0.9;
 }
 .aboutText h1 {
     position: absolute;
-    top: calc(50% - 500px);
-    left: calc(50% - 680px);
+    top: calc(50% - 550px);
+    left: calc(50% - 720px);
 
-    font-size: 150px;
+    font-size: 110px;
     background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
     background-size: 300%;
     -webkit-background-clip: text;
@@ -35,16 +36,18 @@
         100% { background-position: 0px 50%; }
     }
 .aboutText h3{
+    text-align: center;
     font-size: 70px;
     position: absolute;
-    top: calc(50% - 200px);
-    left: calc(50% - 650px);
+    top: calc(50% - 300px);
+    left: calc(50% - 690px);
 }
 .aboutText img{
     width: 180px;
     position: absolute;
-    top: calc(50% - 150px);
-    left: calc(50% - 250px);
+    top: calc(50% - 70px);
+    left: calc(50% - 570px);
+    opacity: 0.9;
 }
 .nome {
     background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
@@ -66,7 +69,7 @@
 .first-description h3 {
     position: absolute;
     top: 60%;
-    left: 6%;
+    left: 10%;
     font-size: 45px;
 }
 .first-description h3 .flag{
@@ -87,10 +90,12 @@
 }
 
 .second-description h3 {
+    line-height: 2;
+    text-align: center;
     position: absolute;
-    top: 76%;
-    left: 8%;
-    font-size: 58px;
+    top: 46%;
+    left: 55%;
+    font-size: 78px;
     background: linear-gradient(-45deg, #f77cda, #f88191, #edeb63, #f76bae);
     background-size: 300%;
     background-clip: text;
@@ -101,7 +106,7 @@
 }
 .second-description h2 {
     position: absolute;
-    top: 88%;
-    left: 1.7%;
-    font-size: 35px;
+    top: 80%;
+    left: 6%;
+    font-size: 38px;
 }

@@ -14,7 +14,8 @@ main {
 
 .sfondo {
     position: absolute;
-    width: 2800px;
+    width: 2500px;
+    height: 120vw;
     top: calc(50% - 390px);
     left: calc(50% + 10px);
     z-index: 1;
@@ -40,13 +41,7 @@ main {
     left: calc(50% - 320px);
     z-index: 5;
 }
-.quinto {
-    position: absolute;
-    width: 50%;
-    top: calc(50% + 180px);
-    left: calc(50% + 387px);
-    z-index: 6;
-}
+
 .text {
     position: absolute;
     width: 50%;
